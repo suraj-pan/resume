@@ -1,0 +1,115 @@
+body {
+    font-family:sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.page{
+  
+    max-width: 1200px;
+    background-color: white;
+    margin: 2rem auto;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header{
+    background-color: cornflowerblue;
+    max-height: 10rem;
+    padding: 5px 5px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+h1,h2,h3{
+    margin: 3px;
+}
+.designation{
+    width: 20%;
+  
+    font-style: italic;
+    margin: 0px 1rem;
+}
+.postLine{
+    width: 20%;
+    margin-left: 0;
+}
+
+hr{
+    width: 50%;
+   margin-left: 0;
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+}
+.left-column{
+    flex: 1;
+}
+
+.right-column{
+    flex: 2;
+}
+
+.skills{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+.skills li{
+    margin-left: 0;
+    padding: 2px 5px;
+    font-weight: 500;
+    font-size: 20px;
+    background: cornflowerblue;
+    margin-bottom: 10px;
+    width: fit-content;
+    border-radius: 5%;
+}
+
+.language {
+    padding-left: 0;
+    list-style-type: none;
+    margin-left: 0;
+}
+.language  li{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.right-column p{
+    margin: 3px;
+}
+
+.degreeName{
+    color: cornflowerblue;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.degreeName + p{
+font-size:20px;
+}
+
+ article{
+   margin-bottom: 10px;
+}
+
+time{
+    font-style: italic;
+}
+section{
+    margin-bottom: 1rem;
+}
+
+ul{
+    margin-top: 4px;
+}
+a{
+    text-decoration: none;
+}
